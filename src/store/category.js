@@ -11,6 +11,25 @@ export default {
         commit('setError', e);
         throw e;
       }
+    },
+    async updateCategory({commit, dispatch},{id , title, limit}) {
+      try{
+        const uid = await dispatch('getUid');
+        await firabase.database().ref(`/users/${uid}/categories`).child(id).update({title,limit});
+      }catch (e) {
+        commit('setError', e);
+        throw e;
+      }
+    },
+    async fetchCategories({commit, dispatch}) {
+      try{
+        const uid = await dispatch('getUid');
+        const categories = (await firabase.database().ref(`/users/${uid}/categories`).once('value')).val() || {};
+        return Object.keys(categories).map(key => ({...categories[key], id: key}));
+      }catch (e) {
+        commit('setError', e);
+        throw e;
+      }
     }
   }
 }
