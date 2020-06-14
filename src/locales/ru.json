@@ -1,0 +1,16 @@
+{
+  "ProfileTitle": "Профиль",
+  "Message_EnterName": "Имя не должно быть пустым",
+  "Update": "Обновить",
+  "Name": "Имя",
+  "Menu_Bill": "Счет",
+  "Menu_History": "История",
+  "Menu_Planning": "Планирование",
+  "Menu_NewRecord": "Новая запись",
+  "Menu_Categories": "Категории",
+  "Category": "Категории",
+  "CategoryNotFound": "Категорий пока нет",
+  "LogOut": "Выйти",
+  "CategoryTitle": "Название",
+  "CategoryTitleRequired": "Введите название категории"
+}

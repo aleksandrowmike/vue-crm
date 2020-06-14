@@ -1,0 +1,16 @@
+{
+  "ProfileTitle": "Profile",
+  "Message_EnterName": "Enter name",
+  "Update": "Update",
+  "Name": "Name",
+  "Menu_Bill": "Bill",
+  "Menu_History": "History",
+  "Menu_Planning": "Planning",
+  "Menu_NewRecord": "New Record",
+  "Menu_Categories": "Categories",
+  "Category": "Category",
+  "CategoryNotFound": "Category not found",
+  "LogOut": "Logout",
+  "CategoryTitle": "Title",
+  "CategoryTitleRequired": "Category title required"
+}
